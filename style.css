@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #DBBEA1;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-header{
+  background-color: #EA5E5E;
+  color: white;
+  padding: 20px 20px;
+  width: 500px;
+  text-align: center;
+}
+.card-body{
+  height: 350px;
+  width: 500px;
+  background-color: white;
+}
+.inputs{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputs select{
+  width: 100%;
+  height: 40px;
+}
+.inputValue input{
+  width: 100%;
+  height: 40px;
+}
+.convert button{
+  width: 100%;
+  height: 40px;
+  background-color:#262626;
+  color: white;
+}
+.convert button:hover{
+  background-color: white;
+  color: black;
+  transition: .3s ease-in;
+}
+.result-card{
+  width: 100%;
+  background-color: #EA5E5E;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+option{
+  display: flex;
+  flex-direction: column;
+}
+#input_amount{
+  padding: 0.375rem 0.75rem;
+}
